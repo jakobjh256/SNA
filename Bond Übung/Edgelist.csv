@@ -1,0 +1,16 @@
+from,to,weight
+Bond,M,1
+Bond,Q,1
+Bond,Moneypenny,1
+Bond,Leiter,2
+Bond,Mathis,2
+Bond,Lynd,3
+M,Q,1
+M,Moneypenny,1
+M,Leiter,1
+Q,Moneypenny,1
+Leiter,Moneypenny,1
+Leiter,Mathis,1
+Leiter,Lynd,1
+Mathis,Lynd,2
+Lynd,Moneypenny,1
