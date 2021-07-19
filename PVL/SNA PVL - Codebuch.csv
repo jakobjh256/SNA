@@ -1,0 +1,17 @@
+CODEBUCH,
+,
+Wert,Kommentar
+edgelist,
+from,"definiert den Sender. Entspricht ID in der Nodelist. Keine Sonderzeichen, nur ein Wort"
+to ,"definiert den Empfänger. Entspricht ID in der Nodelist. Keine Sonderzeichen, etc. "
+relationship,"definiert die Art der Beziehung: 1=Spielerin -> Verein, 2=Spielerin -> Heimatland"
+,
+nodelist,
+id,"eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird.  "
+name,Voller Name der Spielerin/Organisation
+type,"Art des Knotens: 0=Spielerin, 1= Organisation (Verein/Land)"
+birth,Geburtsjahr
+age,"Alter der Spielerinnen: 1=unter 20, 2=20-23, 3=24-27, 4=über 27"
+position,"Position der Spielerinnen: 1=Außenangriff, 2=Mittelblock, 3=Zuspiel, 4=Diagonal, 5=Libera"
+country,"Heimatland: 1=GER=Deutschland, 2=NED=Niederlande, 3=USA=Vereinigte Staaten von Amerika, 4=BUL=Bulgarien, 5=POL=Polen, 6=BEL=Belgien, 7=ESP=Spanien, 8=FIN=Finnland"
+NA,definiert fehlende Werte
